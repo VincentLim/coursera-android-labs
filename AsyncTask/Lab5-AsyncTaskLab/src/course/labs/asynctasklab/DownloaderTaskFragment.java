@@ -1,16 +1,15 @@
 package course.labs.asynctasklab;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.util.ArrayList;
-
 import android.app.Activity;
 import android.app.Fragment;
 import android.content.Context;
 import android.os.AsyncTask;
 import android.os.Bundle;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 
 public class DownloaderTaskFragment extends Fragment {
 
@@ -28,17 +27,17 @@ public class DownloaderTaskFragment extends Fragment {
 		setRetainInstance(true);
 		
 		// TODO: Create new DownloaderTask that "downloads" data
-
+        DownloaderTask aTask = new DownloaderTask();
         
 		
 		// TODO: Retrieve arguments from DownloaderTaskFragment
 		// Prepare them for use with DownloaderTask. 
 
-        
+        Integer[] friends = null;
         
         
 		// TODO: Start the DownloaderTask 
-		
+        aTask.execute(friends);
         
 
 	}
@@ -73,22 +72,35 @@ public class DownloaderTaskFragment extends Fragment {
 	// out). Ultimately, it must also pass newly available data back to 
 	// the hosting Activity using the DownloadFinishedListener interface.
 
-//	public class DownloaderTask extends ... {
-	
+    public class DownloaderTask extends AsyncTask<Integer, Void, String[]> {
 
-    
-    
-    
-    
-    
-    
-    
+
+        @Override
+        protected String[] doInBackground(Integer... params) {
+
+            // StringBuilder sb=new StringBuilder();
+
+            return downloadTweets(params);
+
+            /*String[] tweets =  downloadTweets(params);
+            for (int i=0; i<tweets.length; i++){
+                sb.append(tweets[i]).append("\n");
+            }
+            return sb.toString();*/
+        }
+
+        @Override
+        protected void onPostExecute(String[] strings) {
+            mCallback.notifyDataRefreshed(strings);
+            super.onPostExecute(strings);
+        }
+
         // TODO: Uncomment this helper method
 		// Simulates downloading Twitter data from the network
 
-        /*
-         private String[] downloadTweets(Integer resourceIDS[]) {
-			final int simulatedDelay = 2000;
+
+        private String[] downloadTweets(Integer resourceIDS[]) {
+            final int simulatedDelay = 2000;
 			String[] feeds = new String[resourceIDS.length];
 			try {
 				for (int idx = 0; idx < resourceIDS.length; idx++) {
@@ -124,14 +136,9 @@ public class DownloaderTaskFragment extends Fragment {
 
 			return feeds;
 		}
-         */
 
 
-    
-    
-    
-    
-    
+    }
     
 
 }
