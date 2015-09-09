@@ -1,0 +1,178 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+From Lab2_ActivityLab:
+* .idea\
+* .idea\.name
+* .idea\Lab2_ActivityLab.iml
+* .idea\compiler.xml
+* .idea\copyright\
+* .idea\copyright\profiles_settings.xml
+* .idea\misc.xml
+* .idea\modules.xml
+* .idea\vcs.xml
+* .idea\workspace.xml
+* ActivityLifecycleWalkthrough.pdf
+* ActivityNoReconfig.mp4
+* ActivityReconfig.mp4
+* Lab-Activity.pdf
+* Lab2_ActivityLab.iml
+* Test1_StartActivityOneTest.txt
+* Test2_DoubleRotateActivityOneTest.txt
+* Test3_StartActivityTwoTest.txt
+* Test4_DoubleRotateActivityTwoTest.txt
+* Test5_CloseActivityTwoTest.txt
+* Test6_ReopenActivityTwoTest.txt
+* build\
+* build\Lab2_ActivityLab.apk
+* build\Lab2_ActivityLab.unaligned.apk
+* build\course\
+* build\course\labs\
+* build\course\labs\activitylab\
+* build\course\labs\activitylab\ActivityOne$1.class
+* build\course\labs\activitylab\ActivityOne.class
+* build\course\labs\activitylab\ActivityTwo$1.class
+* build\course\labs\activitylab\ActivityTwo.class
+* build\course\labs\activitylab\BuildConfig.class
+* build\course\labs\activitylab\R$attr.class
+* build\course\labs\activitylab\R$drawable.class
+* build\course\labs\activitylab\R$id.class
+* build\course\labs\activitylab\R$layout.class
+* build\course\labs\activitylab\R$string.class
+* build\course\labs\activitylab\R$style.class
+* build\course\labs\activitylab\R.class
+* build\drawable-hdpi\
+* build\drawable-hdpi\ic_launcher.png
+* build\drawable-ldpi\
+* build\drawable-ldpi\ic_launcher.png
+* build\drawable-mdpi\
+* build\drawable-mdpi\ic_launcher.png
+* build\drawable-xhdpi\
+* build\drawable-xhdpi\ic_launcher.png
+* build\layout\
+* build\layout\activity_one.xml
+* build\layout\activity_two.xml
+* build\values-v11\
+* build\values-v11\styles.xml
+* build\values-v14\
+* build\values-v14\styles.xml
+* build\values\
+* build\values\strings.xml
+* build\values\styles.xml
+* ic_launcher-web.png
+* lab2_ActivityLab\
+* lab2_ActivityLab\build.gradle
+* lab2_ActivityLab\libs\
+* lab2_ActivityLab\libs\robotium-solo-5.3.1.jar
+* lab2_ActivityLab\src\
+* lab2_ActivityLab\src\androidTest\
+* lab2_ActivityLab\src\androidTest\java\
+* lab2_ActivityLab\src\androidTest\java\course\
+* lab2_ActivityLab\src\androidTest\java\course\labs\
+* lab2_ActivityLab\src\androidTest\java\course\labs\activitylab\
+* lab2_ActivityLab\src\androidTest\java\course\labs\activitylab\tests\
+* lab2_ActivityLab\src\androidTest\java\course\labs\activitylab\tests\Test1_StartActivityOneTest.java
+* lab2_ActivityLab\src\androidTest\java\course\labs\activitylab\tests\Test2_DoubleRotateActivityOneTest.java
+* lab2_ActivityLab\src\androidTest\java\course\labs\activitylab\tests\Test2_DoubleRotateActivtyOneTest.java
+* lab2_ActivityLab\src\androidTest\java\course\labs\activitylab\tests\Test3_StartActivityTwoTest.java
+* lab2_ActivityLab\src\androidTest\java\course\labs\activitylab\tests\Test4_DoubleRotateActivityTwoTest.java
+* lab2_ActivityLab\src\androidTest\java\course\labs\activitylab\tests\Test5_CloseActivityTwoTest.java
+* lab2_ActivityLab\src\androidTest\java\course\labs\activitylab\tests\Test6_ReopenActivityTwoTest.java
+* lab2_ActivityLab\src\androidTest\res\
+* lab2_ActivityLab\src\androidTest\res\.gitkeep
+* lab2_ActivityLab\src\main\
+* lab2_ActivityLab\src\main\AndroidManifest.xml
+* lab2_ActivityLab\src\main\java\
+* lab2_ActivityLab\src\main\java\course\
+* lab2_ActivityLab\src\main\java\course\labs\
+* lab2_ActivityLab\src\main\java\course\labs\activitylab\
+* lab2_ActivityLab\src\main\java\course\labs\activitylab\ActivityOne.java
+* lab2_ActivityLab\src\main\java\course\labs\activitylab\ActivityTwo.java
+* lab2_ActivityLab\src\main\res\
+* lab2_ActivityLab\src\main\res\drawable-hdpi\
+* lab2_ActivityLab\src\main\res\drawable-hdpi\ic_launcher.png
+* lab2_ActivityLab\src\main\res\drawable-ldpi\
+* lab2_ActivityLab\src\main\res\drawable-ldpi\ic_launcher.png
+* lab2_ActivityLab\src\main\res\drawable-mdpi\
+* lab2_ActivityLab\src\main\res\drawable-mdpi\ic_launcher.png
+* lab2_ActivityLab\src\main\res\drawable-xhdpi\
+* lab2_ActivityLab\src\main\res\drawable-xhdpi\ic_launcher.png
+* lab2_ActivityLab\src\main\res\layout\
+* lab2_ActivityLab\src\main\res\layout\activity_one.xml
+* lab2_ActivityLab\src\main\res\layout\activity_two.xml
+* lab2_ActivityLab\src\main\res\values-v11\
+* lab2_ActivityLab\src\main\res\values-v11\styles.xml
+* lab2_ActivityLab\src\main\res\values-v14\
+* lab2_ActivityLab\src\main\res\values-v14\styles.xml
+* lab2_ActivityLab\src\main\res\values\
+* lab2_ActivityLab\src\main\res\values\strings.xml
+* lab2_ActivityLab\src\main\res\values\styles.xml
+* proguard-project.txt
+* settings.gradle
+* warmupSolution.txt
+From Lab2_ActivityLabTest:
+* .idea\
+* .idea\.name
+* .idea\Lab2_ActivityLabTest.iml
+* .idea\compiler.xml
+* .idea\copyright\
+* .idea\copyright\profiles_settings.xml
+* .idea\libraries\
+* .idea\libraries\libs.xml
+* .idea\misc.xml
+* .idea\modules.xml
+* .idea\vcs.xml
+* .idea\workspace.xml
+* build\
+* build\.gitkeep
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+robotium-solo-5.3.1.jar => com.jayway.android.robotium:robotium-solo:5.3.1
+robotium-solo-5.3.1.jar => com.jayway.android.robotium:robotium-solo:5.3.1
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+In Lab2_ActivityLab:
+* AndroidManifest.xml => lab2_ActivityLab\src\main\AndroidManifest.xml
+* res\ => lab2_ActivityLab\src\main\res\
+* src\ => lab2_ActivityLab\src\main\java\
+* Test\libs\robotium-solo-5.3.1.jar => lab2_ActivityLab\libs\robotium-solo-5.3.1.jar
+* Test\res\ => lab2_ActivityLab\src\androidTest\res\
+* Test\src\ => lab2_ActivityLab\src\androidTest\java\
+In Lab2_ActivityLabTest:
+* AndroidManifest.xml => Lab2_ActivityLabTest\src\main\AndroidManifest.xml
+* res\ => Lab2_ActivityLabTest\src\main\res\
+* src\ => Lab2_ActivityLabTest\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
