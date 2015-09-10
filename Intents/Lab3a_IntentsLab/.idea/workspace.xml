@@ -2,63 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ecb20b74-f3e6-4204-8877-4b97f76ffc35" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../TheActivityClass/Lab2_ActivityLabTest/lab3a_IntentsLab/src/main/res/drawable-hdpi/ic_launcher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../TheActivityClass/Lab2_ActivityLabTest/lab3a_IntentsLab/src/main/res/drawable-ldpi/ic_launcher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../TheActivityClass/Lab2_ActivityLabTest/lab3a_IntentsLab/src/main/res/drawable-mdpi/ic_launcher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../TheActivityClass/Lab2_ActivityLabTest/lab3a_IntentsLab/src/main/res/drawable-xhdpi/ic_launcher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../TheActivityClass/Lab2_ActivityLabTest/lab3a_IntentsLab/libs/robotium-solo-5.3.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../TheActivityClass/Lab2_ActivityLabTest/lab3a_IntentsLab/src/androidTest/res/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../TheActivityClass/Lab2_ActivityLabTest/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../TheActivityClass/Lab2_ActivityLab/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../TheActivityClass/Lab2_ActivityLabTest/lab3a_IntentsLab/src/main/java/course/labs/intentslab/ActivityLoaderActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../TheActivityClass/Lab2_ActivityLabTest/lab3a_IntentsLab/src/main/AndroidManifest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../TheActivityClass/Lab2_ActivityLabTest/lab3a_IntentsLab/src/androidTest/java/course/labs/intentslab/tests/ExplicitTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../TheActivityClass/Lab2_ActivityLabTest/lab3a_IntentsLab/src/main/java/course/labs/intentslab/ExplicitlyLoadedActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../TheActivityClass/Lab2_ActivityLabTest/lab3a_IntentsLab/src/androidTest/java/course/labs/intentslab/tests/ImplicitTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../TheActivityClass/Lab2_ActivityLabTest/lab3a_IntentsLab/src/main/res/layout/activity_loader_activity.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../TheActivityClass/Lab2_ActivityLabTest/lab3a_IntentsLab/build.gradle" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../TheActivityClass/Lab2_ActivityLabTest/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../TheActivityClass/Lab2_ActivityLab/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../TheActivityClass/Lab2_ActivityLabTest/lab3a_IntentsLab/src/main/res/layout/explicitly_loaded_activity.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../TheActivityClass/Lab2_ActivityLab/.idea/gradle.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../TheActivityClass/Lab2_ActivityLabTest/import-summary.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../TheActivityClass/Lab2_ActivityLabTest/.idea/libraries/libs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../TheActivityClass/Lab2_ActivityLabTest/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../TheActivityClass/Lab2_ActivityLab/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../TheActivityClass/Lab2_ActivityLabTest/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../TheActivityClass/Lab2_ActivityLab/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../TheActivityClass/Lab2_ActivityLabTest/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../TheActivityClass/Lab2_ActivityLab/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/robotium_solo_5_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../TheActivityClass/Lab2_ActivityLab/.idea/libraries/robotium_solo_5_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../TheActivityClass/Lab2_ActivityLabTest/settings.gradle" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../TheActivityClass/Lab2_ActivityLabTest/lab3a_IntentsLab/src/main/res/values/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../TheActivityClass/Lab2_ActivityLabTest/lab3a_IntentsLab/src/main/res/values/styles.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../TheActivityClass/Lab2_ActivityLabTest/lab3a_IntentsLab/src/main/res/values-v11/styles.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../TheActivityClass/Lab2_ActivityLabTest/lab3a_IntentsLab/src/main/res/values-v14/styles.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../TheActivityClass/Lab2_ActivityLabTest/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../TheActivityClass/Lab2_ActivityLab/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../TheActivityClass/Lab2_ActivityLabTest/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../TheActivityClass/Lab2_ActivityLab/.idea/workspace.xml" />
-      <change type="DELETED" beforePath="D:\PERSO_VLI\AndroidStudioProjects\coursera-android-labs\Intents\Lab3a_IntentsLab\.classpath" afterPath="" />
-      <change type="DELETED" beforePath="D:\PERSO_VLI\AndroidStudioProjects\coursera-android-labs\Intents\Lab3a_IntentsLab\.project" afterPath="" />
-      <change type="DELETED" beforePath="D:\PERSO_VLI\AndroidStudioProjects\coursera-android-labs\Intents\Lab3a_IntentsLab\.settings\org.eclipse.jdt.core.prefs" afterPath="" />
-      <change type="DELETED" beforePath="D:\PERSO_VLI\AndroidStudioProjects\coursera-android-labs\Intents\Lab3a_IntentsLab\proguard-project.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../.gitignore" afterPath="$PROJECT_DIR$/../../.gitignore" />
+      <change type="DELETED" beforePath="D:\PERSO_VLI\AndroidStudioProjects\coursera-android-labs\Intents\Lab3a_MyBrowser\.classpath" afterPath="" />
+      <change type="DELETED" beforePath="D:\PERSO_VLI\AndroidStudioProjects\coursera-android-labs\Intents\Lab3a_MyBrowser\.project" afterPath="" />
+      <change type="DELETED" beforePath="D:\PERSO_VLI\AndroidStudioProjects\coursera-android-labs\Intents\Lab3a_MyBrowser\.settings\org.eclipse.jdt.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="D:\PERSO_VLI\AndroidStudioProjects\coursera-android-labs\Intents\Lab3a_MyBrowser\proguard-project.txt" afterPath="" />
+      <change type="DELETED" beforePath="D:\PERSO_VLI\AndroidStudioProjects\coursera-android-labs\TheActivityClass\Lab2_ActivityLabTest\.settings\org.eclipse.jdt.core.prefs" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Lab3a_IntentsLab.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -180,49 +130,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Lab3a_IntentsLabTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Lab3a_IntentsLab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Lab3a_IntentsLabTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Lab3a_IntentsLab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Lab3a_IntentsLab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Lab3a_IntentsLab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Lab3a_IntentsLab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="intentslab" />
+              <option name="myItemId" value="Lab3a_MyBrowser" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -233,10 +141,10 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Lab3a_IntentsLabTest" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Lab3a_MyBrowser" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.20344828" />
+    <property name="project.structure.side.proportion" value="0.345977" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -407,7 +315,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-632" width="1936" height="1096" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -417,14 +325,14 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32978722" sideWeight="0.4978678" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.4978678" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -477,11 +385,11 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Detection</last-edited>
+          <last-edited>Android (Lab3a_IntentsLabTest)|Android</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.345977" />
               </list>
             </option>
           </splitter-proportions>
@@ -512,11 +420,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Lab3a_IntentsLabTest</last-edited>
+          <last-edited>Lab3a_MyBrowser</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.20344828" />
+                <option value="0.345977" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
