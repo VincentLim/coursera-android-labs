@@ -35,5 +35,5 @@ proguard/
 *.*~
 
 # Add Android studio configuration
-!.iml
+!*.iml
 !.idea/
