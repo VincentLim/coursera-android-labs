@@ -33,3 +33,7 @@ proguard/
 
 # Emacs backup files
 *.*~
+
+# Add Android studio configuration
+!*.iml
+!.idea/
