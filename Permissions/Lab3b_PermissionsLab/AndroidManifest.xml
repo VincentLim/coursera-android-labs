@@ -8,7 +8,9 @@
         android:minSdkVersion="8"
         android:targetSdkVersion="18" />
 
-    <!--  TODO - add uses-permission elements -->
+    <!--  add uses-permission elements -->
+    <uses-permission android:name="com.android.browser.permission.READ_HISTORY_BOOKMARKS" />
+    <uses-permission android:name="course.labs.permissions.DANGEROUS_ACTIVITY_PERM" />
 
     <application
         android:allowBackup="true"
@@ -29,6 +31,7 @@
             android:label="@string/title_permissions" >
         </activity>
         <activity
+
             android:name=".GoToDangerousActivity"
             android:label="@string/title_activity_customization" >
         </activity>
