@@ -10,6 +10,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.util.ArrayList;
 
 public class DownloaderTaskFragment extends Fragment {
 
@@ -26,18 +27,21 @@ public class DownloaderTaskFragment extends Fragment {
 		// Preserve across reconfigurations
 		setRetainInstance(true);
 		
-		// TODO: Create new DownloaderTask that "downloads" data
+		//  Create new DownloaderTask that "downloads" data
         DownloaderTask aTask = new DownloaderTask();
         
 		
-		// TODO: Retrieve arguments from DownloaderTaskFragment
+		// TODO:Retrieve arguments from DownloaderTaskFragment
 		// Prepare them for use with DownloaderTask. 
 
-        Integer[] friends = null;
-        
-        
+
+		ArrayList<Integer> friends = getArguments().getIntegerArrayList(MainActivity.TAG_FRIEND_RES_IDS);
+
+        Integer[] friendsArray= new Integer[friends.size()];
+        friendsArray = friends.toArray(friendsArray);
+
 		// TODO: Start the DownloaderTask 
-        aTask.execute(friends);
+        aTask.execute(friendsArray);
         
 
 	}
@@ -78,15 +82,10 @@ public class DownloaderTaskFragment extends Fragment {
         @Override
         protected String[] doInBackground(Integer... params) {
 
-            // StringBuilder sb=new StringBuilder();
 
             return downloadTweets(params);
 
-            /*String[] tweets =  downloadTweets(params);
-            for (int i=0; i<tweets.length; i++){
-                sb.append(tweets[i]).append("\n");
-            }
-            return sb.toString();*/
+
         }
 
         @Override
@@ -95,7 +94,7 @@ public class DownloaderTaskFragment extends Fragment {
             super.onPostExecute(strings);
         }
 
-        // TODO: Uncomment this helper method
+        // Uncomment this helper method
 		// Simulates downloading Twitter data from the network
 
 
