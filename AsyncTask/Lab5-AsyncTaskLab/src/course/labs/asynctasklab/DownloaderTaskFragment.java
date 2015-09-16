@@ -5,6 +5,7 @@ import android.app.Fragment;
 import android.content.Context;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.util.Log;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -31,7 +32,7 @@ public class DownloaderTaskFragment extends Fragment {
         DownloaderTask aTask = new DownloaderTask();
         
 		
-		// TODO:Retrieve arguments from DownloaderTaskFragment
+		// Retrieve arguments from DownloaderTaskFragment
 		// Prepare them for use with DownloaderTask. 
 
 
@@ -40,7 +41,7 @@ public class DownloaderTaskFragment extends Fragment {
         Integer[] friendsArray= new Integer[friends.size()];
         friendsArray = friends.toArray(friendsArray);
 
-		// TODO: Start the DownloaderTask 
+		// Start the DownloaderTask
         aTask.execute(friendsArray);
         
 
@@ -71,7 +72,7 @@ public class DownloaderTaskFragment extends Fragment {
 		mCallback = null;
 	}
 
-	// TODO: Implement an AsyncTask subclass called DownLoaderTask.
+	//  Implement an AsyncTask subclass called DownLoaderTask.
 	// This class must use the downloadTweets method (currently commented
 	// out). Ultimately, it must also pass newly available data back to 
 	// the hosting Activity using the DownloadFinishedListener interface.
@@ -81,7 +82,7 @@ public class DownloaderTaskFragment extends Fragment {
 
         @Override
         protected String[] doInBackground(Integer... params) {
-
+			Log.i(TAG, "doInBackground");
 
             return downloadTweets(params);
 
@@ -90,7 +91,8 @@ public class DownloaderTaskFragment extends Fragment {
 
         @Override
         protected void onPostExecute(String[] strings) {
-            mCallback.notifyDataRefreshed(strings);
+			Log.i(TAG, "onPostExecute");
+			mCallback.notifyDataRefreshed(strings);
             super.onPostExecute(strings);
         }
 
@@ -99,7 +101,8 @@ public class DownloaderTaskFragment extends Fragment {
 
 
         private String[] downloadTweets(Integer resourceIDS[]) {
-            final int simulatedDelay = 2000;
+			Log.i(TAG, "downloadTweets");
+			final int simulatedDelay = 2000;
 			String[] feeds = new String[resourceIDS.length];
 			try {
 				for (int idx = 0; idx < resourceIDS.length; idx++) {
