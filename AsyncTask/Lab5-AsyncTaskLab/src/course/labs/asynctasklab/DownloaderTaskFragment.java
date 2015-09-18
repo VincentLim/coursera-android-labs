@@ -18,7 +18,6 @@ public class DownloaderTaskFragment extends Fragment {
 	private DownloadFinishedListener mCallback;
 	private Context mContext;
 	
-	@SuppressWarnings ("unused")
 	private static final String TAG = "Lab-Threads";
 
 	@Override
