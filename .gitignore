@@ -39,3 +39,6 @@ proguard/
 # Add Android studio configuration
 !*.iml
 !.idea/
+
+#Ignore out repository
+out/
