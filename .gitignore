@@ -35,7 +35,7 @@ proguard/
 *.*~
 #IntelliJ workspace conf
 **/.idea/workspace.xml
-
+*/.idea/libraries
 # Add Android studio configuration
 !*.iml
 !.idea/
